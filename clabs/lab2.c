@@ -36,7 +36,7 @@ int main(void) {
             }
             else
             {
-                printf("Log otricatelen =(");
+                printf("\n","Log otricatelen =(");
                 break;
             }
         default:
