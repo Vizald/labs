@@ -36,10 +36,10 @@ int main(void) {
             }
             else
             {
-                printf("Log otricatelen =(\n");
+                printf("Log otricatelen =(");
                 break;
             }
         default:
-            printf("Vi vveli nepravilnoe chislo :(\n");
+            printf("Vi vveli nepravilnoe chislo :(");
     }
 }
