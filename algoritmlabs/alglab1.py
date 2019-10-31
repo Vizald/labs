@@ -13,9 +13,7 @@ print()
 for i in range(n - 1):
     for j in range(n - i - 1):
         if array[j] > array[j + 1]:
-            per = array[j]
-            array[j] = array[j + 1]
-            array[j + 1] = per
+            array[j], array[j+1] = array[j+1], array[j]
             
 for i in range(n):
     print(array[i], end=" ")
