@@ -7,6 +7,7 @@ symmmax = 0
 
 for i in range(n):
     array.append(randint(1, 999))
+    print(array[i], end=" ")
 
 for i in range(n - 1):
     for j in range(n - i - 1):
