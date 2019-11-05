@@ -36,7 +36,7 @@ int main(void)
             {
                 y = log(2 * a * a + 19 * a * x + 9 * x * x + 1) / log(10);
                 printf("Y=%f\n\n", y);
-                break;
+                break; 
             }
             else
             {
