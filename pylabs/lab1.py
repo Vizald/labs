@@ -7,7 +7,7 @@ print("G =", g)
 
 a = float(input("Введите a:"))
 x = float(input("Введите x:"))
-f = -atan(10 * a ** 2 + 13 * a * a - 30 * x ** 2)
+f = -atan(10 * a ** 2 + 13 * a * x - 30 * x ** 2)
 print("F =", f)
 
 a = float(input("ВВедите a:"))
