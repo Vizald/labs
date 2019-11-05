@@ -15,7 +15,7 @@ int main(void)
     scanf("%f", &a);
     printf("Vvedite x: ");
     scanf("%f", &x);
-    f = -atan(10 * a * a + 13 * a * a - 30 * x * x);
+    f = -atan(10 * a * a + 13 * a * x - 30 * x * x);
     printf("F=%f\n\n", f);
 
     printf("Vvedite a: ");
