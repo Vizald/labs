@@ -18,23 +18,16 @@ int main(void)
             scanf("%f", &x);
             g = - (16 * a * a + 24 * a * x - 27 * x * x) / (45 * a * a - 29 * a * x + 4 * x * x);
             printf("G=%f\n\n", g);
-<<<<<<< HEAD
-	    break;
-=======
             break;
->>>>>>> b9ff8b618521c9d5c5374d001bb2452c55b0bbbc
+
         case 2:
             printf("Vvedite a: ");
             scanf("%f", &a);
             printf("Vvedite x: ");
             scanf("%f", &x);
-            f = -atan(10 * a * a + 13 * a * a - 30 * x * x);
+            f = -atan(10 * a * a + 13 * a * x - 30 * x * x);
             printf("F=%f\n\n", f);
-<<<<<<< HEAD
 	    break;
-=======
-            break;
->>>>>>> b9ff8b618521c9d5c5374d001bb2452c55b0bbbc
         case 3:
             printf("Vvedite a: ");
             scanf("%f", &a);
